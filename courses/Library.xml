@@ -6,7 +6,7 @@
     <Book src="TD/Science"/>
     <Book src="TACDTI/Français"/>
     <Book src="TACDTI/Anglais"/>
-    <!--<Book src="TACDTI/Geo"/>-->
+    <Book src="TACDTI/Geo"/>
     <Book src="TACDTI/Philo"/>
 
 </Library>
