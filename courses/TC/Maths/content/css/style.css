@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "montserrat";
+	src: url(montserrat.ttf);
+}
+
+body {
+  font-family: "montserrat";
+}
+
+strong {
+	color: #c70000;
+}

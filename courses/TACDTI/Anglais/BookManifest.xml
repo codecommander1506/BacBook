@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Book cover="anglais.png" title="Anglais">
+	
+	<Authors>
+		<Author photo="prepabac.png" name="PrepaBAC"/>
+	</Authors>
+	
+	<Parts>	
+		<Part title="English Auxiliary" src="1.html"/>
+		<Part title="Question Tag" src="2.html"/>
+		<Part title="Active &amp; Passive Voice" src="3.html"/>
+		<Part title="Reported Speech" src="4.html"/>
+		<Part title="Grammar" src="5.html"/>
+		<Part title="Have/Get something done" src="6.html"/>
+		<Part title="English Tense" src="7.html"/>		
+	</Parts>
+	
+	<Citations>
+		<Citation>To err is human, to forgive is divine</Citation>
+	</Citations>
+
+</Book>

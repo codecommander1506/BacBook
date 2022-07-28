@@ -1,0 +1,89 @@
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+<center><h1><font color="#c70000" >Systèmes Linéaires</font></h1></center>
+
+<center><h3><font color="#c70000" >I - Définitions</font></h3></center><br>
+
+1)<font color="#c70000" > Définition 1</font><br>
+On appelle système linéaire de n équations aux p inconnues x<sub>1</sub> ; x<sub>2</sub> ; …x<sub>p</sub> le système<br>
+
+<center><img src="img/l1.png" width="300" height="63"></center><br>
+
++ on dit aussi que ( S) est un système à n lignes et p colonnes.<br>
++ si n = p, ( S ) est un système carré.<br>
++ les réels a<sub>11</sub>, a<sub>22</sub> et a<sub>nn</sub> sont les coefficients diagonaux du système. Lorsque les coefficients situés sous la diagonales sont nuls ( a<sub>ij</sub> = 0 , pour tous i et j tels que i > j ), le système est triangulaire supérieur.<br>
++ une solution de (S) est un p-uplet (x<sub>1</sub> ; x<sub>2</sub> ; …x<sub>p</sub>) vérifiant simultanément les n- équations.<br>
+Résoudre (S) c’est déterminer l’ensemble de ces solutions.<br>
+Exemple<br>
+
+<center><img src="img/l2.png" width="300" height="64"></center><br>
+
+(S2) est carré et triangulaire supérieur ; ( 7 ; 1 ; -3) est une solution de (S1) et (S2).<br>
+
+2) <font color="#c70000" >Définition 2</font><br>
+Deux systèmes (S) et (S’) sont équivalents s’ils ont le même ensemble de solutions, autrement dit si toute solution de (S ) est solution de (S’) et réciproquement.<br>
+
+<center><h3><font color="#c70000" >II – Opérations élémentaires sur les systèmes</font></h3></center><br>
+
+1) <font color="#c70000" >Codage</font><br>
+On note Li la i<sup>ème</sup> ligne d’un système (S) .<br>
+Le tableau ci-dessous rassemble les opérations élémentaires sur les lignes de (S) et leur codage.<br>
+
+<center><img src="img/l3.png" width="300" height="53"></center><br>
+
+2) <font color="#c70000" >Théorème</font><br>
+On passe d’un système ( S) à un système ( S’) équivalent :<br>
++ en échangeant l’ordre des inconnues de ( S), ce qui revient à échanger deux colonnes de ( S).<br>
++ en suppriment dans (S) deux lignes identiques<br>
++ en procédant à une opération élémentaire sur les lignes de ( S).<br>
+<font color="#c70000" >Exemple</font><br>
+
+<center><img src="img/l4.png" width="300" height="145"></center><br>
+
+Le système obtenu est triangulaire supérieur. Il se résout aisément par substitution. Il a une solution<br>
+unique ( -1 ; 2 ; -1 ; 1).<br>
+
+<center><h3><font color="#c70000" >III – La méthode de Gauss</font></h3></center><br>
+
+1) <font color="#c70000" >Exposé de la méthode</font><br>
+L’idée<br>
+Il s’agit, par étapes successives, de transformer un système ( S ) en un système triangulaire supérieur ( S’), qui lui est équivalent.<br>
+Résoudre un tel système ( S’) sera dès lors une chose aisée, par substitution.<br>
+Les étapes ;<br>
+a) On place en L<sub>1</sub> une ligne où le coefficient de x<sub>1</sub> est non nul (une telle ligne existe, et ce coefficient est appelé Pivot).<br>
+On élimine l’inconnue x<sub>1</sub> dans L<sub>2</sub>,…, L<sub>n</sub> par L<sub>i</sub> ← L<sub>i</sub> + λL<sub>1</sub> (λ à calculer pour chaque i ≥ 2)<br>
+b) S’il existe parmi L<sub>2</sub>,…, L<sub>n</sub> une ligne où le coefficient de x2 est non nul, on la place en L2 , et on utilise ce coefficient comme nouveau pivot.<br>
+On élimine l’inconnue x<sub>2</sub> dans L<sub>3</sub>,…, L<sub>n</sub> par L<sub>i</sub> ← L<sub>i</sub> + λL<sub>2</sub><br>
+c) Ainsi de suite, jusqu’à obtenir une forme triangulaire.<br>
+2) <font color="#c70000" >Mise en oeuvre</font><br>
+Exemple<br>
+
+<center><img src="img/l5.png" width="300" height="48"></center><br>
+<center><img src="img/l6.png" width="300" height="62"></center><br>
+<center><img src="img/l7.png" width="300" height="59"></center><br>
+
+Du dernier système, nous déduisons successivement : d = 0 ; c = 5 ; b = 3 ; a = -8.<br>
+L’ensemble de solutions est S = {(-8 ; 3 ; 5 ; 0)} ; solution unique.<br>
+3) <font color="#c70000" >Cas particuliers</font><br>
+Un système linéaire n’a pas toujours une solution unique, même s’il est carré. Nous en utilisons ici deux exemples résolus par la méthode de Gauss.<br>
+<font color="#c70000" >Exemple 1 </font>:<br>
+
+<center><img src="img/l8.png" width="300" height="112"></center><br>
+
+<font color="#c70000" >Exemple 2</font> : Résoudre le système<br>
+
+<center><img src="img/l9.png" width="300" height="127"></center><br>
+
+La dernière équation n’ayant pas de solution, l’ensemble de solutions est vide.<br>
+S = Φ
+</body>
+</html>

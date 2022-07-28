@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Book cover="philo.png" title="Philosophie">
+	
+	<Authors>
+		<Author photo="prepabac.png" name="PrepaBAC"/>
+	</Authors>
+	
+	<Parts>	
+		<Part title="La réflexion philosophique" src="4.htm"/>
+		<Part title="Les grandes interrogations philosophiques" src="5.htm"/>
+		<Part title="Enjeux, finalités et perspectives philosophiques" src="6.htm"/>	
+		<Part title="Philosophie africaine" src="7.htm"/>		
+	</Parts>
+	
+	<Citations>
+		<Citation>Le plus fort n'est pas assez fort pour être toujours le maître</Citation>
+		<Citation author="Marcien Tawa">Pour le philosophe, aucune donnée, aucune idée si véritable soit-elle n'est recevable avant d'être passer au crible de la pensée philosophique</Citation>
+		<Citation author="Karl Jasper">Faire de la philosophie c'est être en route</Citation>
+		<Citation author="">L'origine de la philosophie c'est l'experience que nous en faissons denotre propre faiblesse et de notre impuissance</Citation>
+	</Citations>
+
+</Book>
