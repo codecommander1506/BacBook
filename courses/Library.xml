@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Library name="BacBook" host="http://192.168.8.100/bacbook/courses">
+<Library name="BacBook">
 
     <Book src="TC/Maths"/>
     <Book src="TD/Science"/>
     <Book src="TACDTI/Français"/>
     <Book src="TACDTI/Anglais"/>
-    <Book src="TACDTI/Geo"/>
-    <Book src="TACDTI/Philo"/>
+    <!--<Book src="TACDTI/Geo"/>-->
+    <!--<Book src="TACDTI/Philo"/>-->
 
 </Library>
