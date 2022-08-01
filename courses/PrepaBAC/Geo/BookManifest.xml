@@ -8,7 +8,9 @@
 	
 	<Parts>
 	
-		<Part title="Système Monde" desc="Espaces interdépendants" src="1.htm">
+		<Part title="Système Monde">
+		
+		    <Chapter title="Système Monde" desc="Espaces interdépendants" src="1.htm"/>
 			
 			<Chapter title="Présentation">
 				<Lesson title="Espace Nord-Américain" desc="Atouts et handicaps de la nature" src="2.htm"/>
