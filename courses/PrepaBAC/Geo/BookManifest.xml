@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Book cover="../assets/1/4/4.png" title="Géographie" content="../assets/1/4/20/g">
+	
+	<Authors>
+		<Author photo="../assets/2/logo.png" name="PrepaBAC"/>
+	</Authors>
+	
+	<Parts>
+	
+		<Part title="Système Monde" desc="Espaces interdépendants" src="1.htm">
+			
+			<Chapter title="Présentation">
+				<Lesson title="Espace Nord-Américain" desc="Atouts et handicaps de la nature" src="2.htm"/>
+				<Lesson title="Espace Nord-Américain" desc="Population, ville et société" src="3.htm"/>
+				<Lesson title="La construction de l'espace économique entre les Etats Unis, le Canada et le Mexique" src="4.htm"/>
+			</Chapter>
+			
+			<Chapter title="Etats Unis d'Amérique du nord">
+				<Lesson title="Modèle économique américain" desc="Caractéristiques et problèmes" src="5.htm"/>
+			</Chapter>
+			
+		</Part>
+		
+		<Part title="Espace européen">
+		
+			<Chapter title="Présentation générale">
+				<Lesson title="Espace européen" desc="Milieux naturel et population" src="6.htm"/>
+				<Lesson title="Construction européenne" desc="Réalités et perspectives" src="7.htm"/>
+				<Lesson title="Economie française" src="8.htm"/>
+			</Chapter>
+			
+		</Part>
+		
+		<Part title="Asie - Pacifique">
+		
+			<Chapter title="Présentation générale">
+				<Lesson title="Asie pacifique" desc="Facteurs d'émergences et leurs limites" src="9.htm"/>
+			</Chapter>
+		
+			<Chapter title="Japon" desc="(« Nihon » : « pays du soleil levant »)">
+				<Lesson title="Modèle économique japonais" desc="Caractéristiques et problèmes" src="10.htm"/>
+			</Chapter>
+		
+			<Chapter title="Chine">
+				<Lesson title="Chine" desc="Problèmes démographiques" src="11.htm"/>
+				<Lesson title="Modèle de developpement économique et social de la chine" src="12.htm"/>
+			</Chapter>
+		
+		</Part>
+		
+		<Part title="Amérique latine">
+		
+			<Chapter title="Présentation générale">
+				<Lesson title="Amérique latine" desc="Milieu naturel et population" src="13.htm"/>
+			</Chapter>
+		
+			<Chapter title="Etude monographique">
+				<Lesson title="Brésil" desc="Puissance du tiers monde" src="14.htm"/>
+			</Chapter>
+		
+		</Part>
+		
+		<Part title="Afrique">
+		
+			<Chapter title="Présentation générale">
+				<Lesson title="Problèmes et perspectives de developpement du continent africain" src="15.htm"/>
+			</Chapter>
+		
+			<Chapter title="Etude monographique" desc="Sénégal">
+				<Lesson title="Sénégal" desc="Milieu naturel et population" src="16.htm"/>
+				<Lesson title="Question de l'eau au sénégal" src="17.htm"/>
+				<Lesson title="Problèmes économiques et politiques de développement au Sénégal" src="18.htm"/>
+			</Chapter>
+		
+		</Part>
+		
+	</Parts>
+	
+	<Citations>
+		<Citation author="Elisée Reclus">L'histoire n'est que la géographie dans le temps, comme la géographie n'est que l'histoire dans l'espace</Citation>
+	</Citations>
+
+</Book>

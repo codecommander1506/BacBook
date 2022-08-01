@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Library name="PrepaBAC">
+    <Book src="Maths"/>
+    <Book src="Science"/>
+    <Book src="Français"/>
+    <Book src="Anglais"/>
+    <Book src="Geo"/>
+    <Book src="Philo"/>
+</Library>

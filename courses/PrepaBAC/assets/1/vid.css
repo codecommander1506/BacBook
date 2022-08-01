@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "montserrat";
+    src: url(montserrat.ttf);
+}
+
+body { font-family:'montserrat'; background-color:#ffffff; text-align:center; color:white; }
+p { font-family:'montserrat'; }
+span { font-family:'montserrat';
+}
+.video-responsive{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+margin-bottom: 10px;
+border: 3px solid #f7931e;
+background: #e5eff1;
+}
+.video-responsive iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+h1{
+color:#f7931e;
+text-align:center;
+margin-top:20px;
+}
+h2{
+color:#0071bc;
+text-align:center;
+margin-top:20px;
+}
+.holds {
+background:url(giphy.gif) center no-repeat;
+width: 2px;
+height: 2px;
+}

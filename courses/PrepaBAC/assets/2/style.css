@@ -1,0 +1,110 @@
+@font-face {
+	font-family: "montserrat";
+	src: url(montserrat.ttf);
+}
+
+body {
+  background-color: #50B848;
+  size: 10px;
+  font-family: "montserrat";
+  font-weight: 400;
+}
+
+#divPara{
+	display: block;
+	border: 0px solid #fff;
+  font-family: "montserrat";
+	color: #fff;
+	border-radius: 12px;
+	padding: 7px 7px 7px 7px;
+  margin: 30px 30px 30px 30px;
+    	}
+		
+.akentawi {
+    font-size:12px;
+	text-align: center;
+	font-family: "montserrat";
+	color: white;
+	text-decoration: none;
+            }
+			
+.akentawi2 {
+    font-size: 12pt;
+	text-align: center;
+	font-family: "montserrat";
+	color: white;
+	text-decoration: none;
+            }
+			
+div, textarea, input {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  max-width: 300px;
+  min-width: 200px;
+  margin-top: 0px;
+  margin: 15px auto 0px;
+  background-color: #50B848;
+  border: 1px solid #cfcfcf;
+  border-bottom: 1px solid #ccc;
+  justify-content: center;
+}
+
+.row {
+  width: 100%;
+  margin: 0 0 1em 0;
+  padding: 0 1.5em;
+}
+.row.header {
+  padding: 1em 1em;
+  border-bottom: 1px solid #ccc;
+  background: url('2/a.png');
+  text-align:center;
+  color: #50B848;
+}
+.row.body {
+  padding: 0.1em 0.1em 0.1em;
+}
+
+.pull-right {
+  float: right;
+}
+
+h1 {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 300;
+  text-align:center;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  font-size: 2.8125em;
+  border-bottom: 0px solid rgba(255, 255, 255, 0.3);
+  margin: 0 0 0.1em 0;
+  padding: 0 0 0.1em 0;
+}
+
+img {
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .pull-right {
+    float: none;
+  }
+  h1 {
+    font-size: 2.25em;
+  }
+
+
+  li small {
+    display: none;
+  }
+}

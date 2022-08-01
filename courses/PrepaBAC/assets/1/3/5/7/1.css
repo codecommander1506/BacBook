@@ -1,0 +1,84 @@
+@font-face {
+	font-family: "flat";
+	src: url(flat.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  margin: 0;
+  font-family: "flat";
+}
+
+sub {
+  color: #fff;
+}
+.button-area-line {
+  margin: 10px auto;
+  display: -webkit-box;   
+  display: -moz-box;  
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 2em;
+}
+
+  a {
+   background: #fbb03b;
+    padding: 1em;
+    font-size: 0.9em;
+    margin: .2em;
+    color: #000;
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+    border-radius: 12px;
+  }
+
+  .azize {
+    background: #29abe2;
+    padding: 1em;
+    font-size: 0.9em;
+    margin: .2em;
+    color: #fff;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 12px;
+  }
+  .aziz {
+    background: #29abe2;
+    padding: 1em;
+    font-size: 0.9em;
+    margin: .2em;
+    color: #fff;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 12px;
+  }
+ 
+   strong {
+     color: #fff;
+   }
+
+   h2 {
+    font-size: 2em;
+    color: #29abe2;
+    text-align: center;
+  }
+

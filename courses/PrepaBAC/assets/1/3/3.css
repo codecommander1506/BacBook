@@ -1,0 +1,82 @@
+@font-face {
+	font-family: "montserrat";
+	src: url(montserrat.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  margin: 0;
+  font-family: "montserrat";
+}
+
+sub {
+  color: #fff;
+}
+.button-area-line {
+  margin: 10px auto;
+  display: -webkit-box;   
+  display: -moz-box;  
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 2em;
+}
+
+  a {
+   background: #8cc63f;
+    padding: 1em;
+    font-size: 0.9em;
+    margin: .2em;
+    color: #fff;
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+    border-radius: 12px;
+  }
+  .aziz {
+    background: #69a31c;
+     padding: 1em;
+     font-size: 0.9em;
+     margin: .2em;
+     color: #fff;
+     text-decoration: none;
+     flex-grow: 1;
+     text-align: center;
+     border-radius: 12px;
+   }
+ 
+   .azize {
+    background: #8cc63f;
+     padding: 1em;
+     font-size: 0.9em;
+     margin: .2em;
+     color: #fff;
+     text-decoration: none;
+     flex-grow: 1;
+     text-align: center;
+     border-radius: 12px;
+   }
+   strong {
+     color: #fff;
+   }
+
+   h2 {
+    font-size: 2em;
+    color: #009460;
+    text-align: center;
+  }

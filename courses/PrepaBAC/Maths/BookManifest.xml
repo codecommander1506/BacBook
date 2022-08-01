@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Book cover="../assets/1/3/1.png" title="Mathématiques" content="../assets/1/3/5/4">
+	
+	<Authors>
+		<Author photo="../assets/2/logo.png" name="PrepaBAC"/>
+	</Authors>
+	
+	<Parts>
+		<Part title="Nombres complexes" src="1.html"/>
+		<Part title="Arithmétiques" src="2.html"/>
+		<Part title="Fonctions">
+			<Chapter title="Limites et continutés" src="3.html"/>
+			<Chapter title="Dérivations et Primitives" src="4.html"/>
+			<Chapter title="Etude des fonctions" src="5.html"/>
+			<Chapter title="Fonction Logarithme" src="6.html"/>
+			<Chapter title="Fonction Exponentielle" src="6.html"/>
+			<Chapter title="Calcul Intégral" src="7.html"/>
+		</Part>
+		<Part title="Calcul Vectoriel" src="8.html"/>
+		<Part title="Transformations" src="9.html"/>
+		<Part title="Probabilités" src="10.html"/>
+		<Part title="Matrices" src="11.html"/>
+		<Part title="Systèmes Linéaires" src="12.html"/>
+		<Part title="Suite Numérique" src="13.html"/>
+		<Part title="Equation Différentielle" src="14.html"/>
+		<Part title="Courbes Paramétrées" src="15.html"/>
+		<Part title="Coniques" src="16.html"/>
+	</Parts>
+	
+	<Citations>
+		<Citation author="Platon">Nul n'entre ici s'il n'est géomètre</Citation>		
+	</Citations>
+
+</Book>

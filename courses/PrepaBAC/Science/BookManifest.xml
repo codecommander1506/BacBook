@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Book cover="../assets/1/3/4.png" title="Science" content="../assets/1/3/5/1">
+	
+	<Authors>
+		<Author photo="../assets/2/logo.png" name="PrepaBAC"/>
+	</Authors>
+	
+	<Parts>
+		<Part title="Rappels" src="1.html"/>
+		<Part title="La Reproduction" src="2.html"/>
+		<Part title="La Génétique Mendelienne" src="3.html"/>
+		<Part title="La Génétique Humaine" src="4.html"/>
+		<Part title="Le Système Nerveux" src="5.html"/>
+		<Part title="Le Milieu interieur et sa Régulation" src="6.html"/>
+		<Part title="Immunité" src="7.html"/>
+		<Part title="Activité Cardiaque" src="8.html"/>
+		<Part title="Glycmie, Thyroîde et Calcémie" src="9.html"/>
+		<Part title="Activité Musculaire" src="10.html"/>
+		<Part title="La Génie Génétique" src="11.html"/>
+	</Parts>
+
+</Book>
