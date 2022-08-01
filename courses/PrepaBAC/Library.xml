@@ -5,6 +5,4 @@
     <Book src="Science"/>
     <Book src="Français"/>
     <Book src="Anglais"/>
-    <Book src="Geo"/>
-    <Book src="Philo"/>
 </Library>
