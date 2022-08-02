@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Book cover="../assets/1/4/3.png" title="Histoire" content="../assets/1/4/20/h">
+
+	<Authors>
+		<Author photo="../assets/2/logo.png" name="PrepaBAC"/>
+	</Authors>
+
+	<Parts>
+
+		<Part title="L'Organisation des Nations Unies" src="1o.htm"/>
+
+		<Part title="Les Civilisations Negro-Africaines" src="1p.htm"/>
+
+		<Part title="La Civilisation Musulmane" src="2p.htm"/>
+
+        <Part title="Lendemain de la Seconde Guerre">
+            <Chapter title="Les Conséquences et les Règlements de la Seconde Guerre Mondiale" src="1.htm"/>
+            <Chapter title="Les Relations Est/Ouest, de la Guerre Froide à la Chute du Mur de Berlin" src="2.htm"/>
+        <Chapter title="La Chine de 1945 aux annéees 1990" src="3.htm"/>
+        </Part>
+
+        <Part title="Le Tiers Monde">
+            <Chapter title="Les Causes Générales de la Décolonisation" src="4.htm"/>
+            <Chapter title="Les Formes de la Décolonisation" src="5.htm"/>
+            <Chapter title="La Décolonisation">
+                <Lesson title="En Asie" src="6.htm"/>
+                <Lesson title="Au Proche Orient" src="7.htm"/>
+                <Lesson title="Au Maghreb" src="8.htm"/>
+                <Lesson title="En Afrique Noir" src="9.htm"/>
+            </Chapter>
+        </Part>
+
+	</Parts>
+
+</Book>

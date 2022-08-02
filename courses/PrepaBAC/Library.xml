@@ -2,8 +2,12 @@
 
 <Library name="PrepaBAC">
     <Book src="Maths"/>
+    <Book src="Physique"/>
+    <Book src="Chimie"/>
     <Book src="Science"/>
+    <Book src="Histoire"/>
+    <Book src="Geo"/>
+    <Book src="Philo"/>
     <Book src="Français"/>
     <Book src="Anglais"/>
-    <Book src="Geo"/>
 </Library>

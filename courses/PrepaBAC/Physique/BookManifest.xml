@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Book cover="../assets/1/3/2.png" title="Physique" content="../assets/1/3/5/2">
+
+	<Authors>
+		<Author photo="../assets/2/logo.png" name="PrepaBAC"/>
+	</Authors>
+
+	<Parts>
+
+		<Part title="Mécanique">
+		    <Chap title="Cinématique" src="1.html"/>
+		    <Chap title="Application de la cinématique" src="2.html"/>
+		    <Chap title="Rappels sur les énergies" src="3.html"/>
+		    <Chap title="Rappels fondamentales dynamiques" src="4.html"/>
+		</Part>
+
+		<Part title="Electricité">
+		    <Chap title="Champ Magnétique" src="5.html"/>
+		    <Chap title="Force de Lorentz" src="6.html"/>
+		    <Chap title="Force de Laplace" src="7.html"/>
+		    <Chap title="Induction électromagnétique" src="8.html"/>
+		    <Chap title="Auto-induction" src="9.html"/>
+		    <Chap title="Circuit LC" src="10.html"/>
+		    <Chap title="Circuit RLC" src="11.html"/>
+		</Part>
+
+		<Part title="Vibrations et Propagations">
+		    <Chap title="Les phénomènes périodiques" src="12.html"/>
+		    <Chap title="Propagation d'un mouvement vibratoire" src="13.html"/>
+		</Part>
+
+		<Part title="Phénomènes Corpusculaires ">
+		    <Chap title="Effet photoélectrique" src="14.html"/>
+		    <Chap title="Niveau d'énergie" src="15.html"/>
+		    <Chap title="La Radioactivité" src="16.html"/>
+		</Part>
+
+	</Parts>
+
+</Book>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Book cover="../assets/1/3/3.png" title="Chimie" content="../assets/1/3/5/3">
+
+	<Authors>
+		<Author photo="../assets/2/logo.png" name="PrepaBAC"/>
+	</Authors>
+
+	<Parts>
+
+	<Part title="Rappels" src="1.html"/>
+
+		<Part title="Cinétique Chimie">
+		    <Chap title="Evolution d'une réaction chimique" src="2.html"/>
+		    <Chap title="Facteurs Cinétiques" src="3.html"/>
+		    <Chap title="La Catalyse" src="4.html"/>
+		</Part>
+
+		<Part title="Chimie des Solutions">
+		    <Chap title="Solution Acide et Basique" src="5.html"/>
+		    <Chap title="Acide Fort et Base Forte" src="6.html"/>
+		    <Chap title="Couple Acide/Base" src="7.html"/>
+		    <Chap title="Dosage Acide - Base" src="8.html"/>
+		</Part>
+
+		<Part title="Chimie Organique">
+		    <Chap title="Isomère - Fonctions oxygénées" src="9.html"/>
+		    <Chap title="Les Alcools" src="10.html"/>
+		    <Chap title="Acides carboxyliques" src="11.html"/>
+		    <Chap title="Les Amides" src="12.html"/>
+		</Part>
+
+	</Parts>
+
+</Book>
