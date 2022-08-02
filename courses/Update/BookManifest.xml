@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Book cover="icon.png" title="Obsolète" content=".">
+	
+	<Authors>
+		<Author photo="icon.png" name="Amadou Benjamain"/>
+	</Authors>
+	
+	<Parts>
+		<Part title="Recommandations" src="index.html"/>
+	</Parts>
+
+</Book>
