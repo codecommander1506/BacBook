@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Library name="BacBook">
-
-    <Book src="TC/Maths"/>
-
-    <Book src="TD/Science"/>
-
-    <Book src="TACDTI/Français"/>
-    <Book src="TACDTI/Anglais"/>
-
+    <Book src="PrepaBAC/Maths"/>
+    <Book src="PrepaBAC/Physique"/>
+    <Book src="PrepaBAC/Chimie"/>
+    <Book src="PrepaBAC/Science"/>
+    <Book src="PrepaBAC/Histoire"/>
+    <Book src="PrepaBAC/Geo"/>
+    <Book src="PrepaBAC/Philo"/>
+    <Book src="PrepaBAC/Français"/>
+    <Book src="PrepaBAC/Anglais"/>
 </Library>
